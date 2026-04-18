@@ -11,27 +11,27 @@ This is a high-performance **Predictive Analytics Dashboard** that transforms ra
 
 ### 1 Executive Summary & Business KPIs
 Real-time tracking of Total Units, Average Demand, and Sales Volatility.
-![KPI Dashboard](demo_ss1.png)
+![KPI Dashboard](asset/demo_ss1.png)
 
 ### 2 ML-Powered Demand Forecasting
 7-day predictive window visualized with interactive Plotly charts.
-![Forecasting Logic](demo_ss2.png)
+![Forecasting Logic](asset/demo_ss2.png)
 
 ### 3 Inventory Replenishment Plan
 Automated decision table with color-coded alerts for SKU management.
-![Inventory Table](demo_ss3.png)
+![Inventory Table](asset/demo_ss3.png)
 
 ### 4 Feature Engineering Logic
 Testing lag features for the ML model
-![Engineering Logic](Sales Distribution by Day of Week.PNG)
+![Engineering Logic](asset/Sales Distribution by Day of Week.PNG)
 
 ## 5 Visualizing Sales Trends
 Daily Sales Trend
-![Visualizing Sales Trends](Daily Sales Trend.PNG)
+![Visualizing Sales Trends](asset/Daily Sales Trend.PNG)
 
 ## 6 Load Data & Basic Stats
 Load the data
-![load data](load_data.PNG)
+![load data](asset/load_data.PNG)
 
 ---
 
@@ -48,9 +48,7 @@ Load the data
 Retail_Project/
 ├── app.py              # Main Dashboard (Streamlit UI)
 ├── data_setup.py       # Dataset Generator script
-├── demo_ss1.png        # Screenshot 1 (Main Folder)
-├── demo_ss2.png        # Screenshot 2 (Main Folder)
-├── demo_ss3.png        # Screenshot 3 (Main Folder)
+├── asset/              # output
 ├── requirements.txt    # Project dependencies
 ├── README.md           # Documentation
 ├── data/               # Source: raw_sales_data.csv
