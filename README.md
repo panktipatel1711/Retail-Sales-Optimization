@@ -1,50 +1,58 @@
 # 🛒 Retail Sales Forecasting & Inventory Optimization System
 
-A professional predictive analytics dashboard for real-time inventory management and sales forecasting.
+[![Python Version](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
+[![Framework](https://img.shields.io/badge/Framework-Streamlit-red.svg)](https://streamlit.io/)
+
+This is a high-performance **Predictive Analytics Dashboard** that transforms raw retail data into inventory intelligence. It uses Machine Learning to forecast demand and automate stock replenishment.
 
 ---
 
-## 📸 Dashboard Preview (Direct Access)
+## 📸 Project Visualizations (Direct View)
 
-### 📊 Business KPIs & Metrics
-*Monitoring Total Sales, Daily Averages, and Demand Volatility.*
-<img src="assets/demo_ss1.png" width="100%">
+### 1 Executive Summary & Business KPIs
+Real-time tracking of Total Units, Average Demand, and Sales Volatility.
+![KPI Dashboard](demo_ss1.png)
 
----
+### 2 ML-Powered Demand Forecasting
+7-day predictive window visualized with interactive Plotly charts.
+![Forecasting Logic](demo_ss2.png)
 
-### 📈 Demand Forecasting Intelligence
-*7-Day sales forecast using Random Forest Regressor and Interactive Plotly Charts.*
-<img src="assets/demo_ss2.png" width="100%">
+### 3 Inventory Replenishment Plan
+Automated decision table with color-coded alerts for SKU management.
+![Inventory Table](demo_ss3.png)
 
----
+### 4 Feature Engineering Logic
+Testing lag features for the ML model
+![Engineering Logic](Sales Distribution by Day of Week.PNG)
 
-### 📋 Inventory Replenishment Plan
-*Automated decision table with color-coded status for SKU optimization.*
-<img src="assets/demo_ss3.png" width="100%">
+## 5 Visualizing Sales Trends
+Daily Sales Trend
+![Visualizing Sales Trends](Daily Sales Trend.PNG)
 
----
-
-## 🚀 Key Technical Features
-- **Predictive Modeling:** Machine Learning based time-series forecasting.
-- **Inventory Logic:** Automatic Safety Stock and Reorder Point (ROP) calculations.
-- **Modern UI:** High-contrast dark theme for professional data presentation.
-- **Data Research:** Dedicated EDA notebook included for trend analysis.
-
----
-
-## 🛠️ Installation & Setup
-1. **Clone Repo:** `git clone https://github.com/yourusername/retail-inventory-optimizer.git`
-2. **Install Dependencies:** `pip install -r requirements.txt`
-3. **Setup Data:** `python data_setup.py`
-4. **Run App:** `streamlit run app.py`
+## 6 Load Data & Basic Stats
+Load the data
+![load data](load_data.PNG)
 
 ---
 
-## 📂 Project Structure
-- `data/`: Raw Sales Datasets
-- `models/`: Trained ML Models (.pkl)
-- `notebooks/`: Data Analysis & Research
-- `assets/`: Dashboard Screenshots (Direct Display)
+## 🌟 Key Features
+- **Predictive Intelligence:** 7-Day sales forecasting using Random Forest Regressor.
+- **Inventory Engine:** Automated Safety Stock and Reorder Point (ROP) calculations.
+- **Professional UX:** High-contrast dark-themed dashboard for high data readability.
+- **Data Research:** Dedicated Jupyter notebook for deep-dive EDA.
 
 ---
-**Developed by PANKTI PATEL** 
+
+## 📁 Project Architecture
+```text
+Retail_Project/
+├── app.py              # Main Dashboard (Streamlit UI)
+├── data_setup.py       # Dataset Generator script
+├── demo_ss1.png        # Screenshot 1 (Main Folder)
+├── demo_ss2.png        # Screenshot 2 (Main Folder)
+├── demo_ss3.png        # Screenshot 3 (Main Folder)
+├── requirements.txt    # Project dependencies
+├── README.md           # Documentation
+├── data/               # Source: raw_sales_data.csv
+├── models/             # Serialized ML models (.pkl)
+└── notebooks/          # Exploratory Data Analysis (.ipynb)
