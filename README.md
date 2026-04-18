@@ -28,15 +28,15 @@ Here are some more detailed views from the data analysis phase:
 
 #### 4 Daily Sales Trend
 Visualizing historical data to detect seasonality and patterns.
-![Daily Sales Trend](Daily_Sales_Trend.png)
+![Daily Sales Trend](asset/Daily_Sales_Trend.png)
 
 #### 5 Sales Distribution
 Analysis of sales spread across different days of the week.
-![Sales Distribution](Sales_Distribution_by_Day_of_Week.png)
+![Sales Distribution](asset/Sales_Distribution_by_Day_of_Week.png)
 
 #### 6 Raw Data Preview
 A look at the underlying dataset structure before processing.
-![Data Preview](load_data.png)
+![Data Preview](asset/load_data.png)
 ---
 
 ## 🌟 Key Features
