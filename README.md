@@ -23,15 +23,15 @@ Automated decision table with color-coded alerts for SKU management.
 
 ### 4 Feature Engineering Logic
 Testing lag features for the ML model
-![Engineering Logic](asset/Sales Distribution by Day of Week.PNG)
+![Engineering Logic](asset/Sales_Distribution_by_Day_of_Week.png)
 
 ## 5 Visualizing Sales Trends
 Daily Sales Trend
-![Visualizing Sales Trends](asset/Daily Sales Trend.PNG)
+![Visualizing Sales Trends](asset/Daily_Sales-Trend.png)
 
 ## 6 Load Data & Basic Stats
 Load the data
-![load data](asset/load_data.PNG)
+![load data](asset/load_data.png)
 
 ---
 
