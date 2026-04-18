@@ -21,18 +21,22 @@ Real-time tracking of Total Units, Average Demand, and Sales Volatility.
 Automated decision table with color-coded alerts for SKU management.
 ![Inventory Table](asset/demo_ss3.png)
 
-### 4 Feature Engineering Logic
-Testing lag features for the ML model
-![Engineering Logic](asset/Sales_Distribution_by_Day_of_Week.png)
+---
 
-## 5 Visualizing Sales Trends
-Daily Sales Trend
-![Visualizing Sales Trends](asset/Daily_Sales-Trend.png)
+### 📈 Additional Data Insights (EDA)
+Here are some more detailed views from the data analysis phase:
 
-## 6 Load Data & Basic Stats
-Load the data
-![load data](asset/load_data.png)
+#### 4 Daily Sales Trend
+Visualizing historical data to detect seasonality and patterns.
+![Daily Sales Trend](Daily_Sales_Trend.png)
 
+#### 5 Sales Distribution
+Analysis of sales spread across different days of the week.
+![Sales Distribution](Sales_Distribution_by_Day_of_Week.png)
+
+#### 6 Raw Data Preview
+A look at the underlying dataset structure before processing.
+![Data Preview](load_data.png)
 ---
 
 ## 🌟 Key Features
